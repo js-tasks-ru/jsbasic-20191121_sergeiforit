@@ -9,5 +9,8 @@ function sum(m, n) {
     return m + n;
 }
 
-let result = sum(1, 1);
-alert( result ); 
+let showFirstResult = sum(1, 1);
+alert( showFirstResult ); 
+
+let showSecondResult = sum(2, 5);
+alert( showSecondResult ); 
