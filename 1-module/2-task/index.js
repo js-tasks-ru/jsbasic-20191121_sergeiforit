@@ -14,9 +14,6 @@ function print(text) {
  * чтобы функция sayHello работала корректно
  */
 
-//str.length - показывает длину строки
-//str.trim() — убирает пробелы в начале и конце строки.
-
 function isValid(name) {
   if (name == null || name == '' || name.length < 4 || name.indexOf(' ') !== -1) {
     return false;
